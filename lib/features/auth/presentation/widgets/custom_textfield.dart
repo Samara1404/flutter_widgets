@@ -38,7 +38,7 @@ class _CustomTextfieldState extends State<CustomTextfield> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       child: TextField(
         controller: widget.controller,
         obscureText: _obscureText,
