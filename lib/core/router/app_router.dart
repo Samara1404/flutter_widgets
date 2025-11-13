@@ -1,4 +1,5 @@
 import 'package:flutter_widgets/features/auth/presentation/pages/forgot_password.dart';
+import 'package:flutter_widgets/features/auth/presentation/pages/home_page.dart';
 import 'package:flutter_widgets/features/auth/presentation/pages/login_page.dart';
 import 'package:flutter_widgets/features/auth/presentation/pages/register_page.dart';
 import 'package:flutter_widgets/features/auth/presentation/pages/splash_screen.dart';
@@ -11,5 +12,6 @@ final GoRouter appRouter = GoRouter(
     GoRoute(path: '/login', builder: (context, state) => LoginPage()),
     GoRoute(path: '/register', builder: (context, state) => RegisterPage()),
     GoRoute(path: '/forgot', builder: (context, state) => ForgotPassword()),
+    GoRoute(path: '/home', builder: (context, state) => HomePage()),
   ],
 );
