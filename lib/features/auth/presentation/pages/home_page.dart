@@ -19,6 +19,7 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Text('Привет \nНазик', style: AppTextstyles.title),
+              
             ],
           ),
         ),

@@ -8,7 +8,10 @@ class LogoWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => context.go('/login'),
-      child: Image.asset('assets/images/logo.png', width: 250, height: 250),
+      child: Container(
+        height: 250,
+        width: 250,
+        child: Image.asset('assets/images/logo.png', fit: BoxFit.contain,)),
     );
   }
   

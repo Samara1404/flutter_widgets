@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/core/constants/app_textstyles.dart';
-import 'package:flutter_widgets/features/auth/presentation/widgets/accunt_text.dart';
+import 'package:flutter_widgets/features/auth/presentation/widgets/accounttxt.dart';
 import 'package:flutter_widgets/features/auth/presentation/widgets/custom_button.dart';
 import 'package:flutter_widgets/features/auth/presentation/widgets/custom_textfield.dart';
 import 'package:flutter_widgets/features/auth/presentation/widgets/google_button.dart';
@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(height: 30),
                   google_button(),
                   SizedBox(height: 30),
-                  accaunt_text(context),
+                  accounttxt(context),
                 ],
               ),
             ),

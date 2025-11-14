@@ -8,6 +8,7 @@ class CustomTextfield extends StatefulWidget {
   final TextInputType keyboardType;
   final bool isDate;
   final IconData? prefixIcon;
+  final IconData? suffixIcon;
 
 
   const CustomTextfield({
@@ -19,7 +20,7 @@ class CustomTextfield extends StatefulWidget {
     this.keyboardType = TextInputType.text,
     this.isDate = false,
     this.prefixIcon,
-   
+    this.suffixIcon,
   });
 
   @override
