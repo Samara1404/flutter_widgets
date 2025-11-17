@@ -9,6 +9,10 @@ class AppTextstyles {
     fontSize: 14, color: Colors.blueGrey);
     static const TextStyle small= TextStyle(
     fontSize: 12, color: Colors.blueGrey);
+    static const TextStyle medium = TextStyle(
+    fontSize: 16, color: Colors.white);
+     static const TextStyle medi = TextStyle(
+    fontSize: 14, color: Colors.white);
 }
     
  
